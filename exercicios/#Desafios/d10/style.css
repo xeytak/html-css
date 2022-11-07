@@ -1,0 +1,45 @@
+body{
+    width: auto;
+    background-color: #3B8C66;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+
+header{
+    background-color: #60BF81;
+    width: auto;
+    padding: 10px;
+
+}
+.titulo{
+    text-align: center;
+}
+nav{
+    background-color: #f6fffa;
+    padding: 10px;
+    box-shadow: 1px 1px 1px black;
+    
+}
+nav > a{
+    text-decoration: none;
+    margin-right: 40px;
+    color: black;
+}
+nav > a:hover{
+    color: #0978e0;
+     
+}
+section{
+    height: auto;
+    width: auto;
+    background-color: #60BF81;
+    padding: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0%;
+    border: 1px;
+}

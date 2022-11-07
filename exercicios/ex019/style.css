@@ -1,0 +1,23 @@
+body{
+    background-color: rgba(179, 124, 230, 0.616);
+}
+h1#principal{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+h1{
+    color: rgb(41, 14, 216);
+}
+h2{
+    color: darkmagenta;
+}
+.basico{
+    color: #8ef31a;
+}
+.intermediario{
+    color: coral;
+}
+.avancado{
+    color: gold;
+}
