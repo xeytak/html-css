@@ -1,4 +1,22 @@
 header{
     background-color: black;
+    color: white;
+    height: 250px;
+    border: 0px;
+   
     
+}
+header > h1{
+    text-align: center;
+    margin: 0px;
+    padding: 70px;
+    font-size: 80px;
+    
+}
+header > p{
+    margin: 0px;
+    color: white;
+}
+body{
+    margin: 0px;
 }
