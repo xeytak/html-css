@@ -10,14 +10,14 @@
             width: 400px;
             font-family: Arial, Helvetica, sans-serif;
             border-collapse: collapse;
-            
-    
+            position: relative;
         }
+        
         td, th{
             border: 1px solid black;
-            padding: 4px;
-            
+            padding: 4px;    
         }
+      
         td.numero{
             text-align: right;
         }
@@ -25,12 +25,27 @@
         thead, tfoot{
             background-color: darkgray;
         }
+      
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            border: 1px solid black;
+            background-color: darkgrey;
+        }
+       
         caption{
-            background-color: cornflowerblue;
+            background-color: #95b0e2;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 21px;
             border: 1px solid black;
+            padding: 4px;
         }
+
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+        }
+
+
     </style>
 </head>
 <body>
@@ -43,6 +58,7 @@
                 <th scope="col">População</th>
             </tr> 
         </thead>
+     
         <tbody>
             <tr>
                 <td>São Paulo</td>
@@ -63,10 +79,61 @@
                 <td>Bahia</td>
                 <td class="numero">14 985 284</td>
             </tr>
+        
             <tr>
                 <td>Paraná</td>
                 <td class="numero">11 597 48</td>
             </tr>
+
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">11 466 630</td>
+            </tr>
+
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9 674 793</td>
+            </tr>
+
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9 240 580</td>
+            </tr>
+
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8 777 124</td>
+            </tr>
+
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numero">8 777 124</td>
+            </tr>
+
+            <tr>
+                <td>Goiás</td>
+                <td class="numero">7 206 589</td>
+            </tr>
+
+            <tr>
+                <td>Maranhão</td>
+                <td class="numero">7 153 262</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="numero">4 269 995</td>
+            </tr>
+
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="numero">4 108 508</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="numero">4 059 905</td>
+            </tr>
+
+
         </tbody>
 
         <tfoot>
@@ -76,6 +143,8 @@
             </tr>
         </tfoot>
     </table>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia atque quaerat labore dolorem voluptates eligendi, fugiat voluptatem consectetur sunt iusto repudiandae, exercitationem excepturi quasi, provident reiciendis numquam natus officia rerum! Cumque nobis ullam voluptate nesciunt harum aliquid veniam id expedita asperiores sit aut libero dolor magni quia nihil autem sunt earum suscipit possimus molestias, quaerat ea repudiandae provident. Eligendi dolores doloremque nihil minima incidunt nulla sequi numquam, quasi ab rem eius ad natus iusto nemo, explicabo, omnis consectetur laudantium ipsum repellendus vel quam ratione dolorum. Minima reiciendis dignissimos provident? Recusandae hic eos porro itaque quas unde quidem dolore. Quos dolor itaque consectetur unde quibusdam ex quisquam tempore! Tempora voluptatem doloremque ab vero? Totam facere maiores ad similique placeat sint? Asperiores, voluptatibus ratione saepe commodi pariatur cum quod eum vero error, mollitia maiores laudantium ullam eos impedit eius placeat illum, deserunt veritatis. Culpa, est voluptatem ad in nisi quo harum optio exercitationem neque, magnam, reiciendis iusto excepturi unde alias saepe quae quibusdam assumenda quos cumque quam sapiente suscipit. Tempore eum aliquam natus corrupti sed itaque tenetur totam aut ab voluptate, necessitatibus mollitia delectus? Aperiam necessitatibus dignissimos laboriosam tenetur quam aliquam perferendis qui aliquid porro provident, cupiditate alias molestias! Porro, amet cupiditate. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel nemo soluta, iusto veritatis porro dolores rerum modi optio nobis temporibus pariatur, ipsam hic architecto eveniet, ea exercitationem ad molestias cum perspiciatis placeat corporis illum? Neque minus fugit corporis molestias placeat optio, odio voluptates animi qui. Aliquid saepe rerum id accusamus corporis officia harum ipsa eius, sequi vel architecto esse itaque unde dignissimos quasi dolorem minus perspiciatis fugit culpa fuga quas doloremque? Accusantium consequuntur commodi facere tempore at ratione, vero corrupti assumenda, temporibus libero numquam totam esse molestias. Modi est alias quo debitis dolor tempora repellendus, itaque rerum eaque commodi ab dolorem. Tempore consectetur, voluptatibus dolorem quidem praesentium expedita quod doloribus quasi deleniti voluptatem eaque dolorum dolor laborum natus ipsam velit excepturi aspernatur nihil cumque tempora! In nam eligendi consectetur neque velit illum dignissimos error, corporis eius tempore labore, repellat porro dolore dolor voluptate maiores sunt temporibus nobis. Ex eius totam, eligendi temporibus vitae delectus cumque iste magni nobis, aliquid velit quo minima. Nulla alias culpa quod ea temporibus, consectetur excepturi provident voluptatum itaque, deleniti eaque qui est blanditiis quos ratione aliquam nisi nobis quibusdam autem ullam possimus quas iusto rem quam. Magni facilis, dicta architecto esse accusamus ex qui sapiente.</p>
     
 </body>
 </html>
