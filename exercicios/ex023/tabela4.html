@@ -5,14 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table{
+            width: 500px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 4px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        thead{
+            background-color: darkgrey;
+        }
+        caption{
+            font-size: 2em;
+        }
+
+
+
+    </style>
 </head>
 <body>
     <table>
-        <tr>
-            <th>Grupos</th>
-            <th>Nomes</th>
-            <th>Filmes</th>
-        </tr>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th>Grupo</th>
+                <th>Nomes</th>
+                <th colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">Mulheres</th>
+                <td>Maria</td>
+                <td>Taxi Driver</td>
+                <td>Alien</td>
+                <td>Oldboy</td>
+            </tr>
+            <tr>
+                <td>Marli</td>
+                <td>Matrix</td>
+                <td>Titanic</td>
+                <td>Pulp Fiction</td>
+            </tr>
+
+            <tr>
+                <td>Cláudia</td>
+                <td>Django</td>
+                <td>Zodíaco</td>
+                <td>Seven</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Homes</th>
+                <td>Bruno</td>
+                <td>Psicose</td>
+                <td>A bruxa</td>
+                <td>Hereditário</td>
+            </tr>
+            <tr>
+                <td>Tiago</td>
+                <td>Kill Bill</td>
+                <td>Ouro Negro</td>
+                <td>Birdman</td>
+            </tr>
+            <tr>
+                <td>José</td>
+                <td>1917</td>
+                <td>Tubarão</td>
+                <td>Mindsommar</td>
+            </tr>
+        </tbody>
+    
     </table>
     
 </body>
