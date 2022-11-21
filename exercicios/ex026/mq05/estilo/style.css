@@ -1,6 +1,38 @@
 @charset "UTF-8";
 
-body{
-    background-color: plum;
+*{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body, html{
+    background-color: plum;
+    
+}
+
+header{
+    background-color: rgb(48, 46, 46);
+    color: white;
+    
+}
+
+header > h1{
+    padding: 10px;
+    text-align: center;
+}
+
+menu{
+    display: block;
+}
+
+header > ul{
+    list-style-type: none;
+}
+
+header > a{
+    text-align: center;
+    padding: 10px;
+    display: block;
 }
