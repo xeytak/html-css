@@ -20,8 +20,20 @@ header > h1{
     color: white;
 }
 
-menu{
+i#burguer{
+    text-align: center;
+    color: white;
     display: block;
+    background-color: #a9a9a9b4;
+    
+}
+
+i#burguer:hover{
+    background-color: black;
+    cursor: pointer;
+}
+menu{
+    display: none;
 }
 
 menu > ul{
@@ -40,7 +52,7 @@ menu > ul > li > a{
 }
 
 menu a:hover{
-    background-color: rgba(169, 169, 169, 0.705);
+    background-color: #a9a9a9b4;
 }
 main{
     background-color: white;
