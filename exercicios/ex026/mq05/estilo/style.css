@@ -3,8 +3,7 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
-    margin: 0px;
-    
+    margin: 0px; 
 }
 
 body, html{
@@ -26,7 +25,7 @@ menu{
 }
 
 menu > ul{
-    list-style-type: none;
+    list-style-type: none;       /*Tirar as bolibnha da lista*/
     display: block;
 }
 
